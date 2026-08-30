@@ -1,0 +1,8 @@
+{
+  "petrol_price_delhi": 102.12,
+  "diesel_price_delhi": 95.2,
+  "currency": "INR",
+  "unit": "per_litre",
+  "as_of": "2026-07-31",
+  "source": "PPAC (Petroleum Planning & Analysis Cell), Govt of India"
+}
