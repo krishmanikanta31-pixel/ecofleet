@@ -2,7 +2,13 @@
  * EcoFleet API Client — connects frontend to FastAPI backend at http://localhost:8000
  */
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL =
+  (import.meta.env["VITE_API_BASE_URL"] as string | undefined) ||
+  (import.meta.env.PROD
+    ? "https://ecofleet-sih.onrender.com"
+    : "http://localhost:8000");
+
+
 
 export interface FeatureImportanceItem {
   feature: string;

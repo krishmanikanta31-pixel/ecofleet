@@ -4,7 +4,12 @@ __pycache__/
 venv/
 node_modules/
 dist/
+.output/
+.vercel/
+.nitro/
+.wrangler/
 .vite/
 .env
 .env.local
 .DS_Store
+
